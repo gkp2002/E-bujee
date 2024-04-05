@@ -69,21 +69,21 @@ function Services() {
                     </ul>
                       <h2 className="text-red-700 text-4xl font-medium pt-24 pb-4">Design</h2>
                       <ul className="border-y-2 border-white ">
-                        <li className="md:flex block flex-row p-11 border-b-2 border-opacity-55 justify-between font-bold md:text-3xl tx-xl  border-gray-300">
+                        <li className="md:flex block flex-row p-11 border-b-2 border-opacity-55 justify-between font-bold md:text-2xl tx-xl  border-gray-300">
                         <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
                         <ul>
                           <li className="text-white">UNITED STATES</li>
                         </ul>
                         </li>
-                        <li className="md:flex block flex-row p-11 border-b-2 border-opacity-55 justify-between font-bold md:text-3xl tx-xl  border-gray-300"> <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
+                        <li className="md:flex block flex-row p-11 border-b-2 border-opacity-55 justify-between font-bold md:text-2xl tx-xl  border-gray-300"> <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
                         <ul>
                           <li className="text-white">UNITED STATES</li>
                         </ul></li>
-                        <li className="md:flex block flex-row p-11 border-b-2 border-opacity-55 justify-between font-bold md:text-3xl tx-xl  border-gray-300"> <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
+                        <li className="md:flex block flex-row p-11 border-b-2 border-opacity-55 justify-between font-bold md:text-2xl tx-xl  border-gray-300"> <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
                         <ul>
                           <li className="text-white">UNITED STATES</li>
                         </ul></li>
-                        <li className="md:flex block flex-row p-11 border-b-2 border-opacity-55 justify-between font-bold md:text-3xl tx-xl  border-gray-300"> <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
+                        <li className="md:flex block flex-row p-11 border-b-2 border-opacity-55 justify-between font-bold md:text-2xl tx-xl  border-gray-300"> <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
                         <ul>
                           <li className="text-white">UNITED STATES</li>
                         </ul></li>
