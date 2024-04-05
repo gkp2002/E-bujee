@@ -58,7 +58,7 @@ function Services() {
                 <div className=" md:px-[150px] px-30">
                    <h2 className="text-red-700 text-4xl font-medium p-4" >Delivary Leadership</h2> 
                     <ul className="border-y-2 border-white p-2">
-                       <li className="md:flex block flex-row p-9 justify-between md:text-3xl tx-xl  font-bold ">
+                       <li className="md:flex block flex-row p-9 justify-between md:text-2xl tx-xl  font-bold ">
                            <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
                             <ul>
                               <li className="text-white">UNITED STATES</li>
