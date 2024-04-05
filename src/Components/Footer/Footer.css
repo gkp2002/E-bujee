@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+
+
+
+  @media(max-width:750px){
+   #personal-info{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+   } 
+   .social-media{
+    display: flex;
+    flex-direction: column;
+   }
+  }
