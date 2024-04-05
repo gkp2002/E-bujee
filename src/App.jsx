@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Services from "./Components/Services/Services";
 function App() {
   return (
-    <div className="bg-black h-screen">
+    <div className="bg-black">
       {
         <BrowserRouter>
           <Navbar />
