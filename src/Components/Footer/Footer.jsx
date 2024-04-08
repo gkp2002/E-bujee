@@ -1,7 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 // import Clock from '../../Pages/Clock/Clock'
+import { SocialIcon } from 'react-social-icons'
 function Footer() {
+  
+
   return (
     <div className="bg-black md:flex md:justify-center md:items-center flex-col text-white w-full py-0">
       <div className=" flex flex-col lg:flex-row md:items-start items-center text-white lg:items-center justify-evenly w-full px-5">
@@ -49,12 +52,12 @@ function Footer() {
 
 
 
-    <div className="flex md:justify-center items-center flex-col p-5 gap-7">
-    <h1 className='text-3xl font-semibold leading-10 md:text-[1.4vmax]'>Fallow Me</h1>
-    <div className="flex gap-5">
-    <a href="#"><img src="/src/assets/facebook.png" alt="" /></a>
-    <a href="#"><img src="/src/assets/instagram.png" alt="" /></a>
-    <a href="#"><img src="/src/assets/twitter.png" alt="" /></a>
+    <div className="flex md:justify-center items-center  p-5 gap-2 ">
+    <h1 className='text-3xl  font-semibold leading-10 md:text-[1.4vmax]'>Fallow Me: </h1>
+    <div className="flex gap-2">
+    <a href="https://www.instagram.com/" >{<SocialIcon url="https://instagram.com" />}</a>
+    <a href="https://twitter.com/">{<SocialIcon url="https://twitter.com" />}</a>
+    <a href="https://www.facebook.com/">{<SocialIcon url="https://facebook.com" />}</a>
     </div>
     </div>
     
