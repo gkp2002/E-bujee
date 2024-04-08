@@ -39,7 +39,7 @@ function Navbar() {
      <nav className={position ? "flex top-5 bg-gray-500 rounded-full h-[4vmax]  px-5 z-50 items-center fixed":" h-[4vmax] w-full py-10 bg-transparent text-white flex items-center justify-between  relative "}>
       
     <div className="text-center font-medium  text-white  p-0 mx-5 ">
-    <p className="text-center md:text-[2vmax] text-xl">E-Bujee</p>
+    <p className="text-center md:text-[2vmax] text-xl">Logo</p>
   </div>
       <div className=" mx-5 cursor-pointer">
       {
