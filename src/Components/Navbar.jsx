@@ -19,7 +19,7 @@ function Navbar() {
   window.addEventListener('scroll',changePosition)
   const content = (
     <div>  
-      <div className="lg:hidden text-center top-20 left-0 right-0 text-white mx-0 mb-2 w-100 h-full bg-black pt-3 pb-3 fixed z-20" >
+      <div className="lg:hidden text-center top-20 left-0 right-0 text-white mx-0 mb-2 w-full h-full bg-black pt-3 pb-3 fixed z-20" >
          <ul className=" list-none text-white block gap-5 cursor-pointer mt-2 mx-3 font-bold text-2xl  mb-2 ">
          <Link to='/' onClick={()=>setClick(false)}> <li className="hover:text-sky-300 hover:scale-100 ">Home</li></Link>
           <Link to='Services'onClick={()=>setClick(false)} ><li className="hover:text-sky-300 hover:scale-100 ">Services</li></Link>

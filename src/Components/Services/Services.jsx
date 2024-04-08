@@ -56,7 +56,7 @@ function Services() {
             </div>
             <div className="cursor-pointer md:px[120px] px-[30px] bg-black md:px-[120px ] px-30 z-50 w-100">
                 <div className=" md:px-[150px] px-30">
-                   <h2 className="text-red-700 text-4xl font-medium p-4" >Delivary Leadership</h2> 
+                   <h2 className="text-red-700 text-3xl font-bold p-4" >Delivary Leadership</h2> 
                     <ul className="border-y-2 border-white p-2">
                        <li className="md:flex block flex-row p-9 justify-between md:text-2xl tx-xl  font-bold ">
                            <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
@@ -67,7 +67,7 @@ function Services() {
                        </li>
                     
                     </ul>
-                      <h2 className="text-red-700 text-4xl font-medium pt-24 pb-4">Design</h2>
+                      <h2 className="text-red-700 text-3xl font-bold pt-24 pb-4">Design</h2>
                       <ul className="border-y-2 border-white ">
                         <li className="md:flex block flex-row p-11 border-b-2 border-opacity-55 justify-between font-bold md:text-2xl tx-xl  border-gray-300">
                         <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>

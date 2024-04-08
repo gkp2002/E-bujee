@@ -1,9 +1,10 @@
+import Marquee from "react-fast-marquee";
 function Home() {
   return (
     <div id="body" className="bg-black text-white max-w-full w-full ">
       <div id="card" className="">
         <div className="max-w mx-auto h-auto text-white  shadow-lg flex md:items-center  flex-col ">
-          <div className="flex flex-col md:py-44 md:px-[13vmax] px-3">
+          <div className="flex flex-col md:py-4 md:px-[13vmax] px-3">
             <h1 className="text-white text-[3.7vmax] font-bold ">
               {" "}
               Lorem ipsum dolor sit amet consectetur adipisicing.
@@ -12,16 +13,14 @@ function Home() {
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime,
               laudantium?
             </p>
-            <div>
-              <div className="text-2xl text-white font-medium md:mt-56 mt-7 w-full -z-10 ">
-                <p className="text-white uppercase text-[3.5vmax] font-bold animate-marquee">
-                  It`s time to change a Life
-                </p>
-              </div>
+                                 
             </div>
-          </div>
-
-          <div className="bg-transparent h-auto flex p-4 ">
+            </div>
+            {<Marquee speed="200">
+              <p className="text-white uppercase text-[3.5vmax] font-bold ">
+                It`s time to change a Life </p>             
+                 </Marquee>}
+                 <div className="bg-transparent h-auto flex p-4 ">
             <div className="w-[50%]">
               <img
                 className="w-[90%] rounded-md "
@@ -37,9 +36,8 @@ function Home() {
               </p>
             </div>
           </div>
-        </div>
       </div>
-    </div>
+      </div>
   );
 }
 

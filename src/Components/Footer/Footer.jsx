@@ -3,7 +3,7 @@ import React from 'react'
 // import Clock from '../../Pages/Clock/Clock'
 function Footer() {
   return (
-    <div className="bg-black md:flex md:justify-center md:items-center flex-col text-white w-full py-44">
+    <div className="bg-black md:flex md:justify-center md:items-center flex-col text-white w-full py-0">
       <div className=" flex flex-col lg:flex-row md:items-start items-center text-white lg:items-center justify-evenly w-full px-5">
      <div className="text-center flex justify-center items-start flex-col py-[5vw] md:gap-6">
        <p className=' text-4xl font-bold mb-1 md:text-[1.8vmax]'>We would love to hear more from you!</p>
