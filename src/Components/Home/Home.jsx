@@ -1,4 +1,5 @@
 import Marquee from "react-fast-marquee";
+
 function Home() {
   return (
     <div id="body" className="bg-black text-white max-w-full w-full ">
@@ -9,7 +10,7 @@ function Home() {
               {" "}
               Lorem ipsum dolor sit amet consectetur adipisicing.
             </h1>
-            <p className="text-white text-[1.8vmax] font-medium">
+            <p className="text-white text-[1.8vmax] font-medium ">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime,
               laudantium?
             </p>
@@ -17,7 +18,7 @@ function Home() {
             </div>
             </div>
             {<Marquee speed="200">
-              <p className="text-white uppercase text-[3.5vmax] font-bold ">
+              <p className="text-white uppercase text-[3.5vmax] font-bold  ">
                 It`s time to change a Life </p>             
                  </Marquee>}
                  <div className="bg-transparent h-auto flex p-4 ">
@@ -29,7 +30,7 @@ function Home() {
               />
             </div>
             <div className="w-[50%]">
-              <p className="text-[2vmax] pb-3 text-white font-medium">
+              <p className="text-[2vmax] pb-3 text-white font-medium an">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
                 labore obcaecati cumque nisi, sequi delectus ipsum vitae dolores
                 et quaerat.
@@ -37,6 +38,12 @@ function Home() {
             </div>
           </div>
       </div>
+     { <div className="  bg-transparent h-auto md:flex text-center  gap-20 p-4 justify-center items-center  ">
+     <div className="cursor-pointer"><img className=" hover:animate-pulse" src="/src/assets/hero.png" alt="" /></div>
+     <div className="cursor-pointer"><img className=" hover:animate-pulse" src="/src/assets/hero.png" alt="" /></div>
+     <div className="cursor-pointer"><img className=" hover:animate-pulse" src="/src/assets/hero.png" alt="" /></div>
+      
+  </div> }
       </div>
   );
 }
