@@ -5,7 +5,7 @@ function Home() {
     <div id="body" className="bg-black text-white max-w-full w-full ">
       <div id="card" className="">
         <div className="max-w mx-auto h-auto text-white  shadow-lg flex md:items-center  flex-col ">
-          <div className="flex flex-col md:py-4 md:px-[13vmax] px-3">
+          <div className="flex flex-col md:py-14yout md:px-[13vmax] px-3">
             <h1 className="text-white text-[3.7vmax] font-bold ">
               {" "}
               Lorem ipsum dolor sit amet consectetur adipisicing.
@@ -38,12 +38,15 @@ function Home() {
             </div>
           </div>
       </div>
-     { <div className="  bg-transparent h-auto md:flex text-center  gap-20 p-4 justify-center items-center  ">
+        
+        <div className="text-center p-5 md:text-[2vmax] text-2xl font-medium">Our Services</div>
+      <div className="  bg-transparent h-auto md:flex text-center  gap-20 p-4 justify-evenly items-center  ">        
+     <div className="cursor-pointer"><img className="  hover:animate-pulse" src="/src/assets/hero.png" alt="" /></div>
      <div className="cursor-pointer"><img className=" hover:animate-pulse" src="/src/assets/hero.png" alt="" /></div>
      <div className="cursor-pointer"><img className=" hover:animate-pulse" src="/src/assets/hero.png" alt="" /></div>
-     <div className="cursor-pointer"><img className=" hover:animate-pulse" src="/src/assets/hero.png" alt="" /></div>
+     
       
-  </div> }
+  </div> 
       </div>
   );
 }
