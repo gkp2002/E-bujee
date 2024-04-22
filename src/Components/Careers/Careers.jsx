@@ -6,7 +6,7 @@ function Careers() {
       <main
         id="hero-section"
         className="lg:flex  flex-col justify-center 
-        items-center bg-black  relative"
+        items-center bg-transparent  relative"
       >
         <div className="lg:mt-[11vmax] lg:px-48 pt-20 px-10">
           <div className=" lg:flex  lg:mb-16">

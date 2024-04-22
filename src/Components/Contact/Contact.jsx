@@ -2,7 +2,7 @@
 import React from "react";
 function Contact() {
   return (
-     <div className="flex justify-center flex-col  bg-black">
+     <div className="flex justify-center flex-col  bg-transparent">
     <div className="md:flex block md:items-center justify-between  text-white py-[5vmax] px-0 border-b-2 border-white  ">
     <div className="  flex-col  md:ml-32 md:w-[40%] gap-5 ">
     <h1 className="md:text-[3vmax] text-3xl font-extrabold md:p-3 ">Let`s Work Together</h1>
@@ -19,9 +19,9 @@ function Contact() {
     </div>
     </div>
  
-    <div className="text-center flex justify-center flex-col items-center h-auto  ">
+    <div className="text-center flex justify-center flex-col items-center h-auto bg-opacity-45 bg-gray-700 pb-3  ">
       <h1 className=" md:text-[1.8vmax] text-2xl  font-semibold uppercase text-white pt-3 md:my-6" >Inquiry Form</h1>      
-      <form action="" className=" border-2 md:mt-7 border-white flex flex-col justify-center items-start py-2 px-10 pb-5 mt-2 ">
+      <form action="" className=" border-2 md:mt-7 border-white flex flex-col justify-center items-start py-2 px-10 pb-5 mt-2 bg-opacity-45 bg-gray-700">
    
       <div className="mt-3 w-[75vw] flex justify-center items-center flex-col py-5 md:py-3">
     <div className="md:flex  block md:py-3">
@@ -35,7 +35,7 @@ function Contact() {
      
    
       <textarea name="" id="" cols="30" rows="10" placeholder="Tell us about your Project *"
-      className="w-[70vw] h-auto max-h-[40rem]  md:py-6 min-h-48  border border-black text-white bg-black rounded-md mb-3  md:text-[1vmax] text-sm font-medium  block transition-all pb-3 "     
+      className="w-[70vw] h-auto max-h-[40rem]  md:py-6 min-h-48  border border-black text-white bg-gray-700 px-5 rounded-md mb-3  md:text-[1vmax] text-sm font-medium  block transition-all pb-3 "     
       ></textarea>
   
       </div>

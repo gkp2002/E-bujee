@@ -2,8 +2,8 @@
 function Services() {
   return (
     <div>
-    <main className="bg-slate-950">
-    <div id="Container" className="bg-black text-white w-full">
+    <main className="bg-transparent">
+    <div id="Container" className="bg-transparent text-white w-full py-16">
       <div id="content" className="px-[8vw] lg lg:w-[60%]  py-[7vmax] ">
          <div className="text-white">
             <h1 className="text-[3.6vmax] font-bold text-3xl leading-none ">Collaborate, Create, and Grow Your Career</h1>
@@ -11,13 +11,13 @@ function Services() {
        </div>
        </div>   
         </div>
-     <div className="bg-white  ">
-      <div id="internalwrapp" className="text-black pl-[10vmax]  py-60 lg:w-6/12">
+     <div className="bg-white bg-opacity-70">
+      <div id="internalwrapp" className="text-black pl-[10vmax]  py-64 lg:w-6/12 ">
            <h3 className="text-red-600 md:text-[1.9vmax] text-xl font-bold">Core Values</h3>
            <h1 className="font-extrabold text-[2.5vmax] leading-tight">Our Values Shape Everything We Do and How We Do It</h1>
          </div>
 
-         <div id="content" className="md:flex items-center md:px-[120px] px-[30px] pt-10 justify-center bg-black block">
+         <div id="content" className="md:flex items-center md:px-[120px] px-[30px] pt-10 justify-center bg-gray-800 bg-opacity-70 block">
             <ul className=" text-white md:px-[120px] px-[30]">
                <li className="md:flex  md:pb-28">
                 <div className="flex md:px-32 pb-11">
@@ -54,11 +54,11 @@ function Services() {
             </ul>
                     
             </div>
-            <div className="cursor-pointer md:px[120px] px-[30px] bg-black md:px-[120px ] px-30 z-50 w-100">
+            <div className="cursor-pointer md:px[120px] px-[30px] bg-gray-800 bg-opacity-70 md:px-[120px ] px-30 z-50 w-100 pb-11">
                 <div className=" md:px-[150px] px-30">
-                   <h2 className="text-red-700 text-3xl font-bold pbx -4" >Delivary Leadership</h2> 
+                   <h2 className="text-red-700 text-3xl font-bold pb-4" >Delivary Leadership</h2> 
                     <ul className="border-y-2 border-white ">
-                       <li className="md:flex block flex-row p-5 justify-between text-sm  font-bold ">
+                       <li className="md:flex block flex-row p-5 justify-between text-xl  font-bold ">
                            <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
                             <ul>
                               <li className="text-white">UNITED STATES</li>
@@ -69,21 +69,21 @@ function Services() {
                     </ul>
                       <h2 className="text-red-700 text-2xl font-bold pt-24 pb-4">Design</h2>
                       <ul className="border-y-2 border-white ">
-                        <li className="md:flex block flex-row p-5 border-b-2 border-opacity-55 justify-between font-bold  text-sm  border-gray-300">
+                        <li className="md:flex block flex-row p-5 border-b-2 border-opacity-55 justify-between font-bold  text-xl  border-gray-300">
                         <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
                         <ul>
                           <li className="text-white">UNITED STATES</li>
                         </ul>
                         </li>
-                        <li className="md:flex block flex-row p-5 border-b-2 border-opacity-55 justify-between font-bold  text-sm  border-gray-300"> <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
+                        <li className="md:flex block flex-row p-5 border-b-2 border-opacity-55 justify-between font-bold  text-xl  border-gray-300"> <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
                         <ul>
                           <li className="text-white">UNITED STATES</li>
                         </ul></li>
-                        <li className="md:flex block flex-row p-5 border-b-2 border-opacity-55 justify-between font-bold  text-sm  border-gray-300"> <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
+                        <li className="md:flex block flex-row p-5 border-b-2 border-opacity-55 justify-between font-bold  text-xl  border-gray-300"> <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
                         <ul>
                           <li className="text-white">UNITED STATES</li>
                         </ul></li>
-                        <li className="md:flex block flex-row p-5 border-b-2 border-opacity-55 justify-between font-bold  text-sm  border-gray-300"> <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
+                        <li className="md:flex block flex-row p-5 border-b-2 border-opacity-55 justify-between font-bold  text-xl  border-gray-300"> <h3 className="text-white">Delivery Lead - UX Focus - Contract</h3>
                         <ul>
                           <li className="text-white">UNITED STATES</li>
                         </ul></li>

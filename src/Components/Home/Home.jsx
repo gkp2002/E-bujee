@@ -2,9 +2,10 @@ import Marquee from "react-fast-marquee";
 
 function Home() {
   return (
-    <div id="body" className="bg-black text-white max-w-full w-full ">
+    <div id="body" className="bg-transparent text-white max-w-full w-full mt-[6vmax] " >
+   
       <div id="card" className="">
-        <div className="max-w mx-auto h-auto text-white  shadow-lg flex md:items-center  flex-col ">
+        <div className="max-w mx-auto h-auto text-white   flex md:items-center  flex-col pb-11 ">
           <div className="flex flex-col md:py-14yout md:px-[13vmax] px-3">
             <h1 className="text-white text-[3.7vmax] font-bold ">
               {" "}
@@ -17,11 +18,11 @@ function Home() {
                                  
             </div>
             </div>
-            {<Marquee speed="200">
+            {<Marquee speed="200" >
               <p className="text-white uppercase text-[3.5vmax] font-bold  ">
                 It`s time to change a Life </p>             
                  </Marquee>}
-                 <div className="bg-transparent h-auto flex p-4 ">
+                 <div className="bg-transparent h-auto flex p-4 md:py-20 ">
             <div className="w-[50%]">
               <img
                 className="w-[90%] rounded-md "
@@ -40,10 +41,10 @@ function Home() {
       </div>
         
         <div className="text-center p-5 md:text-[2vmax] text-2xl font-medium">Our Services</div>
-      <div className="  bg-transparent h-auto md:flex text-center  gap-20 p-4 justify-evenly items-center  ">        
-     <div className="cursor-pointer"><img className="  hover:animate-pulse" src="/src/assets/hero.png" alt="" /></div>
-     <div className="cursor-pointer"><img className=" hover:animate-pulse" src="/src/assets/hero.png" alt="" /></div>
-     <div className="cursor-pointer"><img className=" hover:animate-pulse" src="/src/assets/hero.png" alt="" /></div>
+      <div className="  bg-transparent h-auto md:flex text-center  gap-20 p-4 justify-around items-center md:mx-20 ">        
+     <div className="cursor-pointer md:w-[20vmax]"><img className="  hover:animate-pulse" src="/src/assets/hero.png" alt="" /></div>
+     <div className="cursor-pointer md:w-[20vmax]"><img className=" hover:animate-pulse" src="/src/assets/hero.png" alt="" /></div>
+     <div className="cursor-pointer md:w-[20vmax]"><img className=" hover:animate-pulse" src="/src/assets/hero.png" alt="" /></div>
      
       
   </div> 
