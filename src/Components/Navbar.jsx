@@ -26,10 +26,10 @@ function Navbar() {
     </div>
          <ul className=" list-none text-white block gap-5 cursor-pointer mt-2  font-bold text-2xl   ">
          <Link to='/' onClick={()=>setClick(false)} > <li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">Home</li></Link>
-          <Link to='Services'onClick={()=>setClick(false)} ><li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">Services</li></Link>
-          <li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">About</li>
-          <li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">Resource</li>
-          <Link to='Careers'  onClick={()=>setClick(false)}> <li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">Careers</li></Link>
+          <Link to='/Services' onClick={()=>setClick(false)} ><li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">Services</li></Link>
+        <Link to='/about' onClick={()=>setClick(false)}>  <li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">About</li></Link>
+         <Link to="/resource" onClick={()=>setClick(false)}> <li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">Resource</li></Link>
+          <Link to='/Careers'  onClick={()=>setClick(false)}> <li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">Careers</li></Link>
           <li className="my-2 pl-11"> <Link to="contact-us"  onClick={()=>setClick(false)}><button className="bg-blue-700 text-white text-xl p-1 rounded-md hover:bg-red-400">
           Contact-us
         </button></Link></li>

@@ -15,13 +15,7 @@ const ParticlesComponent = (props) => {
   // this should be run only once per application lifetime
   useEffect(() => {
     initParticlesEngine(async (engine) => {
-      // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-      // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-      // starting from v2 you can add only the features you need reducing the bundle size
-      //await loadAll(engine);
-      //await loadFull(engine);
-      await loadSlim(engine);
-      //await loadBasic(engine);
+        await loadSlim(engine);
     }).then(() => {
       setInit(true);
     });
@@ -36,7 +30,7 @@ const ParticlesComponent = (props) => {
     () => ({
       background: {
         color: {
-          value: "#1f2937",
+          value: "#000",
         },
       },
       fpsLimit: 120,
@@ -67,7 +61,7 @@ const ParticlesComponent = (props) => {
         },
         links: {
           color: "#FFFFFF",
-          distance: 180,
+          distance: 100,
           enable: true,
           opacity: 0.3,
           width: 3,
@@ -86,7 +80,7 @@ const ParticlesComponent = (props) => {
           density: {
             enable: true,
           },
-          value: 150,
+          value: 300,
         },
         opacity: {
           value: 1.0,

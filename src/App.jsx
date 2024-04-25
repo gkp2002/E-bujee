@@ -7,9 +7,11 @@ import Navbar from "./Components/Navbar";
 import {  Routes, Route } from "react-router-dom";
 import Services from "./Components/Services/Services";
 import ParticlesComponent from "./Components/Particle/ParticlesComponent";
+import RightSticky from './Components/RigthStickey/RightSticky';
 function App() {
   return (
     <div className=" w-full" >
+    <RightSticky/>
     <Navbar />
     <ParticlesComponent id="particle"/>
           <Routes>

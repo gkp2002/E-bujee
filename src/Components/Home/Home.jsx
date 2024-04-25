@@ -6,21 +6,20 @@ function Home() {
    
       <div id="card" className="">
         <div className="max-w mx-auto h-auto text-white   flex md:items-center  flex-col pb-11 ">
-          <div className="flex flex-col md:py-14yout md:px-[13vmax] px-3">
+          <div className="flex flex-col md:py-14 md:px-[13vmax] px-3">
             <h1 className="text-white text-[3.7vmax] font-bold ">
               {" "}
-              Lorem ipsum dolor sit amet consectetur adipisicing.
+              Making the Impossible Possible with Digital Magic
             </h1>
             <p className="text-white text-[1.8vmax] font-medium ">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime,
-              laudantium?
+            "Empowering brands to defy convention, transcend limits, and embrace the extraordinary in the ever-evolving digital realm."
             </p>
                                  
             </div>
             </div>
-            {<Marquee speed="200" >
+            {<Marquee  speed="100">
               <p className="text-white uppercase text-[3.5vmax] font-bold  ">
-                It`s time to change a Life </p>             
+              Let's create new realities</p>             
                  </Marquee>}
                  <div className="bg-transparent h-auto flex p-4 md:py-20 ">
             <div className="w-[50%]">
