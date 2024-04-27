@@ -9,35 +9,23 @@ function Testimonials() {
     <div className='text-white flex px-28 gap-x-10'>
        <div className='text-2xl font-bold leading-10 border-2 border-red-600 p-11 rounded-md bg-blue-800'>Avanza would transform any idea or content into the requested deliverable 
        and work cohesively with the team to incorporate changes if needed.</div>
-       <div className='text-2xl font-bold leading-10 border-2 border-red-600 p-11 rounded-md bg-blue-800'>Avanza would transform any idea or content into the requested deliverable 
-       and work cohesively with the team to incorporate changes if needed.</div>
-       <div className='text-2xl font-bold leading-10 border-2 border-red-600 p-11 rounded-md bg-blue-800'>Avanza would transform any idea or content into the requested deliverable 
-       and work cohesively with the team to incorporate changes if needed.</div>
+      
     </div>
      
     
     <div className='text-white flex px-28 gap-x-10'>
-    <div className='text-2xl font-bold leading-10 border-2 border-red-600 p-11 rounded-md bg-blue-800'>Avanza would transform any idea or content into the requested deliverable 
-    and work cohesively with the team to incorporate changes if needed.</div>
-    <div className='text-2xl font-bold leading-10 border-2 border-red-600 p-11 rounded-md bg-blue-800'>Avanza would transform any idea or content into the requested deliverable 
-    and work cohesively with the team to incorporate changes if needed.</div>
+    
     <div className='text-2xl font-bold leading-10 border-2 border-red-600 p-11 rounded-md bg-blue-800'>Avanza would transform any idea or content into the requested deliverable 
     and work cohesively with the team to incorporate changes if needed.</div>
  </div>
 
  <div className='text-white flex px-28 gap-x-10'>
- <div className='text-2xl font-bold leading-10 border-2 border-red-600 p-11 rounded-md bg-blue-800'>Avanza would transform any idea or content into the requested deliverable 
- and work cohesively with the team to incorporate changes if needed.</div>
- <div className='text-2xl font-bold leading-10 border-2 border-red-600 p-11 rounded-md bg-blue-800'>Avanza would transform any idea or content into the requested deliverable 
- and work cohesively with the team to incorporate changes if needed.</div>
+
  <div className='text-2xl font-bold leading-10 border-2 border-red-600 p-11 rounded-md bg-blue-800'>Avanza would transform any idea or content into the requested deliverable 
  and work cohesively with the team to incorporate changes if needed.</div>
 </div>
 <div className='text-white flex px-28 gap-x-10'>
-<div className='text-2xl font-bold leading-10 border-2 border-red-600 p-11 rounded-md bg-blue-800'>Avanza would transform any idea or content into the requested deliverable 
-and work cohesively with the team to incorporate changes if needed.</div>
-<div className='text-2xl font-bold leading-10 border-2 border-red-600 p-11 rounded-md bg-blue-800'>Avanza would transform any idea or content into the requested deliverable 
-and work cohesively with the team to incorporate changes if needed.</div>
+
 <div className='text-2xl font-bold leading-10 border-2 border-red-600 p-11 rounded-md bg-blue-800'>Avanza would transform any idea or content into the requested deliverable 
 and work cohesively with the team to incorporate changes if needed.</div>
 </div>

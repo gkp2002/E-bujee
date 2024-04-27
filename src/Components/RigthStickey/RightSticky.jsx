@@ -10,7 +10,7 @@ function RightSticky() {
     
   return (
     <div>
-    <div className={click?'h-80 md:w-[500px] w-[480px] float-right right-0 top-1/3 fixed z-50 flex line-clamp-1':'h-80 w-[400px]  float-right md:right-[-15.4rem] right-[-12.6rem] top-1/3 fixed z-50 flex line-clamp-1'} id="sticky-right" onClick={handleClicked}>
+    <div className={click?'h-80 md:w-[500px] w-[480px] float-right right-0 top-1/3 fixed z-50 flex line-clamp-1':'h-80 w-[400px]  float-right md:right-[-15.4rem] right-[-15.4rem] top-1/3 fixed z-50 flex line-clamp-1'} id="sticky-right" onClick={handleClicked}>
     <div className='relative left-[78px] z-[1]  overflow-hidden bottom-0 '>
       <figure>
         <picture>

@@ -1,5 +1,19 @@
 
-
+.footerbody{
+  /* background-image: url('https://ignitevisibility.com/wp-content/themes/ignite-new/images/upper-wave-black.png'); */
+  background-color: aliceblue;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1
+  
+}
 
 
 

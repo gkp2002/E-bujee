@@ -1,3 +1,6 @@
+
+import SubproductNavgation from "./ProductsPage/SubproductNavgation"
+
 // import React from 'react'
 function Services() {
   return (
@@ -16,7 +19,12 @@ function Services() {
            <h3 className="text-red-600 md:text-[1.9vmax] text-xl font-bold">Core Values</h3>
            <h1 className="font-extrabold text-[2.5vmax] leading-tight">Our Values Shape Everything We Do and How We Do It</h1>
          </div>
-
+            <section className="w-full h-full mx-auto flex-col  ">
+        
+             <SubproductNavgation/>
+            
+            
+            </section>
          <div id="content" className="md:flex items-center md:px-[120px] px-[30px] pt-10 justify-center bg-gray-800 bg-opacity-70 block">
             <ul className=" text-white md:px-[120px] px-[30]">
                <li className="md:flex  md:pb-28">
