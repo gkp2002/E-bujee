@@ -8,7 +8,7 @@ function SectionTransist() {
       },[])
   return (
     <div>
-        <section style={{backgroundImage:"url(https://www.smartsites.com/media/featured-services-bg-1536x708.jpg)"}} className='w-full h- bg-cover py-24'>
+        <section style={{backgroundImage:"url(/src/assets/Mission.png)"}} className='w-full h- bg-cover object-fill py-24'>
              <div className='text-7xl font-bold text-white text-center  mb-12' data-aos = "fade-down"> who we are</div>
              <div>
                 <ul className='md:flex flex-wrap justify-evenly max-w-[107rem] my-auto' >
