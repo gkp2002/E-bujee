@@ -1,7 +1,9 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 
 function Navbar() {
+
+ 
   const [click, setClick] = useState(false);
   const handleClicked =()=>{
       setClick(!click);
@@ -37,13 +39,17 @@ function Navbar() {
           </div>
   );
 {/*h-20 w-full bg-gray-600 text-white flex items-center justify-between fixed rounded-3xl mt-8*/}
-  return (  
-    <div className="flex items-center flex-col">
-     <nav className={position ? "flex top-5 bg-gray-900 rounded-full h-[4vmax] py-7  px-11 z-50 items-center fixed":" h-[4vmax] w-full py-10 px-11 bg-transparent text-white flex items-center justify-between p-4 fixed z-50"}>
-      
-    <div className=" font-medium  flex items-center text-white  mx-5 ">
-    <p className=" md:text-[2vmax] text-xl font-bold md:pl-14">Techtitan</p>
-  </div>
+  return (   
+    <div className="flex items-center flex-col ">
+
+         
+     <nav className={position ? "flex top-5 bg-gray-900 rounded-full h-[4vmax] py-7 overflow-clip transition-[height] ease-out duration-600  px-11 z-50 items-center fixed" :" h-[4vmax] w-full py-10 px-11 bg-transparent text-white flex items-center justify-between p-4 fixed z-50"}>
+     
+     <Link to='/'>
+     <div className=" font-medium  flex items-center text-white  mx-5 ">
+     <p className=" md:text-[2vmax] text-xl font-bold md:pl-14">Techtitan</p>
+     </div>
+     </Link>
       <div className=" mx-5 cursor-pointer">
       {
         click ?<button className="text-3xl font-bold md:hidden" onClick={handleClicked}>&#10005;</button>:
@@ -61,7 +67,7 @@ function Navbar() {
            Contact-us
            </button> </NavLink> </li>
            <li>
-           <NavLink to="contact-us">
+           <NavLink to="/Schedulemeeting">
            <button className="bg-orange-900 text-white text-2xl md:text-[1.2vmax] md:p-2 p-3 rounded-md hover:bg-orange-600 ">
            Book Meeting Now
            </button> </NavLink> </li>

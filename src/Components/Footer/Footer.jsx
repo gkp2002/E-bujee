@@ -10,8 +10,9 @@ function Footer() {
 
   return (
     <section className='mt-10' >
-    <img src="https://ignitevisibility.com/wp-content/themes/ignite-new/images/upper-wave-black.png" alt=""  />
-      <div className="bg-black md:flex md:justify-center md:items-center flex-col text-white w-full py-0 pb-11 z-50 " >
+   {  //<img src="https://ignitevisibility.com/wp-content/themes/ignite-new/images/upper-wave-black.png" alt=""  />
+  }
+      <div className="bg-gray-900 md:flex md:justify-center md:items-center flex-col text-white w-full py-0 pb-11 z-50 " >
       <div className=" flex flex-col lg:flex-row md:items-start  text-white lg:items-center justify-evenly w-full px-5">
       <div className="text-center flex justify-center items-start flex-col pt-[5vw] md:gap-6 mb-4">
       <p className=' text-4xl font-bold mb-1 md:text-[1.8vmax]'>We would love to hear more from you!</p>

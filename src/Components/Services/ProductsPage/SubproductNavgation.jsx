@@ -12,7 +12,7 @@ function SubproductNavgation() {
             <NavLink to="ProductOne">Product-one</NavLink>
           </div>
           <div className="text-xl text-black hover:border-8 border-s-yellow-300 border-x-orange-600 border-y-blue-600 px-12 py-3 rounded-3xl font-bold">
-            <NavLink to="productTwo">Product-Two</NavLink>
+            <NavLink  to="productTwo">Product-Two</NavLink>
           </div>
           <div className="text-xl text-black hover:border-8 border-s-yellow-300 border-x-orange-600 border-y-blue-600 px-12 py-3 rounded-3xl font-bold">
             <NavLink to="ProductThree">Product-Three</NavLink>

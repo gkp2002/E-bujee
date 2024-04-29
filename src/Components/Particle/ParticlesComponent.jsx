@@ -1,19 +1,13 @@
 /* eslint-disable react/prop-types */
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { useEffect, useMemo, useState } from "react";
-// import { loadAll } from "@/tsparticles/all"; // if you are going to use `loadAll`, install the "@tsparticles/all" package too.
-// import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
-import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
-// import { loadBasic } from "@tsparticles/basic"; // if you are going to use `loadBasic`, install the "@tsparticles/basic" package too.
-
-
-
+import { loadSlim } from "@tsparticles/slim"; 
 const ParticlesComponent = (props) => {
 
+  
   // eslint-disable-next-line no-unused-vars
   const [init, setInit] = useState(false);
-  // this should be run only once per application lifetime
-  useEffect(() => {
+   useEffect(() => {
     initParticlesEngine(async (engine) => {
         await loadSlim(engine);
     }).then(() => {
@@ -30,7 +24,7 @@ const ParticlesComponent = (props) => {
     () => ({
       background: {
         color: {
-          value: "#121212",
+          value: "#000",
         },
       },
       fpsLimit: 120,

@@ -9,7 +9,7 @@ export function Carsouel() {
   return (
     <section  >
     
-    <Carousel transition={{ duration:1 }} loop="true" autoplay="true" className="rounded-xl w-full h-screen">
+    <Carousel transition={{ duration:1 }} loop="true" autoplay="true" className="rounded-xl w-full relative ">
         {Data.map((item)=>{
       return <div key={item.id}> <SliderOne key={item.id} video={item.videos} heading={item.heading} content={item.content}/></div>
     })}

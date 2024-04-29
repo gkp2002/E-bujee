@@ -1,3 +1,5 @@
+/* eslint-disable no-irregular-whitespace */
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import Aos from 'aos'
 import React, { useEffect } from 'react'
@@ -10,21 +12,20 @@ function StoriesSection() {
     <div>
       <section>
          <div className='grid md:grid-cols-2 gap-x-12 md:px-16 md:py-20 bg-tranplarent' data-aos = "fade-up-right" data-aos-duration="1000" data-loaded="true">
-            <div>
-                <video src="/src/assets/video.mp4" autoPlay loop muted controls></video>
+                        <div className='' data-aos="fade-up-left" data-aos-duration="1000" data-loaded="true">
+               <h1 className='text-6xl font-bold mb-12 mt-5'>What Define Us</h1>
+               <p className='md:text-2xl font-extrabold '>We're more than just a company. We're a force of change .
+                We believe in creating legacies, dedicated to magnifying your brand's impact at a global stage </p>
+             <p className='text-md mt-12'>
+             We are Fueled by passion to make a meaningful difference in the world,
+              relentlessly pursued by excellence.With us, your vision isn't just a distant dream,it's the exciting next chapter in your remarkable success story. Let's rewrite this narrative together, where you take center 
+             stage as the undeniable hero, and we're your steadfast allies in achieving greatness.
+             </p>
+             </div>
+            <div className='flex'>
+                <img src='/Techtitans/src/assets/story.png'/>
             </div>
-            <div className='' data-aos="fade-up-left" data-aos-duration="1000" data-loaded="true">
-               <h1 className='text-6xl font-bold mb-12 mt-5'>Our Story</h1>
-               <p className='md:text-xl md:leading-9 leading-6'>SmartSites was founded by brothers Alex and Michael Melen, who grew up with a 
-               passion for all things digital. With an innovative vision and a lot of hard work, SmartSites quickly 
-               became one of America’s fastest growing companies.
-
-               Our relentless focus on our clients has led us to over 100
-                5-star reviews since our inception in 2011. When Dun & Bradstreet asked
-                 “How satisfied do you feel about the quality of service?”, we scored a phenomenal
-                97%. We keep our clients happy by delivering results that exceed their expectations.</p>
-            </div>
-         </div>
+         </div>   
       </section>
     </div>
   )
