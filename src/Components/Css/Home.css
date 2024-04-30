@@ -1,0 +1,6 @@
+.text-stroke{
+    color: inherit;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: orange;
+}

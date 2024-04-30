@@ -1,6 +1,7 @@
 .active{
-    color:red;
-    border-bottom: 3px solid blue;
+    color:#78909c;
+    
+    border-bottom:3px dashed gray;
     
 }
 .active #contact-us{

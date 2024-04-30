@@ -34,6 +34,11 @@ function Navbar() {
           <li className="my-2 pl-11"> <NavLink to="contact-us"  onClick={()=>setClick(false)}><button className="bg-blue-700 text-white text-xl p-1 rounded-md hover:bg-red-400">
           Contact-us
         </button></NavLink></li>
+        <li>
+           <NavLink to="/Schedulemeeting">
+           <button className="bg-orange-700 text-white text-xl px-5 py-2 rounded-md hover:bg-red-400 ">
+           Book Meeting Now
+           </button> </NavLink> </li>
           </ul>
       </div>
           </div>

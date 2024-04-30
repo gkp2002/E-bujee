@@ -6,7 +6,7 @@ function FormFile() {
         Name:"",
         Company:"",
         Email:"",
-        Phone:0,
+        Phone:Number(""),
         Address:""
     })
     const handleForm = (e) =>{
@@ -16,13 +16,14 @@ function FormFile() {
              [name]:value,
         }))
     };
-
+  
     const handleSubmit= async (event)=>{
         event.preventDefault();
        const response = await fetch('http://localhost:3000/Create',{
          method:"POST",
          headers:{
-              "Content-Type": "application/json"
+          'Content-Type': 'application/json',
+          'Accept':'application/json'
          },
          body:JSON.stringify(data)
        });
@@ -37,29 +38,29 @@ function FormFile() {
   return (
     <div>
     <div className="text-center flex justify-center flex-col items-center h-auto bg-opacity-45 bg-gray-700 pb-3  ">
-      <h1 className=" md:text-[1.8vmax] text-2xl  font-semibold uppercase text-white pt-3 md:my-6" >Inquiry Form</h1>      
-      <form action="post" onSubmit={handleSubmit} className=" border-2 md:mt-7 border-white flex flex-col justify-center items-start py-2 px-10 pb-5 mt-2 bg-opacity-45 bg-gray-700">
+      <h1 className=" lg:text-[1.8vmax] text-2xl  font-semibold uppercase text-white pt-3 lg:my-6" >Inquiry Form</h1>      
+      <form action="post" onSubmit={handleSubmit} className=" border-2 lg:mt-7 border-white flex flex-col justify-center items-start py-2 px-10 pb-5 mt-2 bg-opacity-45 bg-gray-700">
    
-      <div className="mt-3 w-[75vw] flex justify-center items-center flex-col py-5 md:py-3">
-    <div className="md:flex  block md:py-3">
-    <input required name='Name' className=" placeholder:text-white  font-medium md:w-[33vw] max-h-11 my-1 border-b-2 border-white md:text-[1.2vmax] text-xl pt-6 pb-12 pl-3 mx-5 min-h-11 text-white bg-transparent" 
+      <div className="mt-3 w-[75vw] flex justify-center items-center flex-col py-5 lg:py-3">
+    <div className="md:flex  block lg:py-3">
+    <input required name='Name' className=" placeholder:text-white  font-medium lg:w-[33vw] max-h-11 my-1 border-b-2 border-white lg:text-[1.2vmax] text-xl pt-8 rounded-lg  pb-8 pl-3 mx-5 min-h-11 text-white bg-transparent" 
     type="text" placeholder="Name*"
      value={data.Name}
      onChange={handleForm}
     />
-    <input required name='Company' className=" placeholder:text-white  font-medium md:w-[33vw] max-h-11 my-1 border-b-2 border-white md:text-[1.2vmax] text-xl pt-6 pb-12 pl-3 mx-5 min-h-11 text-white bg-transparent"
+    <input required name='Company' className=" placeholder:text-white  font-medium lg:w-[33vw] max-h-11 my-1 border-b-2 border-white lg:text-[1.2vmax] text-xl pt-8 rounded-lg  pb-8 pl-3 mx-5 min-h-11 text-white bg-transparent"
      type="text"  placeholder="Company*"
     value={data.Company}
     onChange={handleForm}
     />
     </div>
-      <div className="md:flex block  md:py-6">
-      <input required name='Email' className=" placeholder:text-white  font-medium md:w-[33vw] max-h-11 my-1 border-b-2 border-white md:text-[1.2vmax] text-xl pt-6 pb-12 pl-3 mx-5 min-h-11  bg-transparent text-white" 
+      <div className="md:flex block  lg:py-6">
+      <input required name='Email' className=" placeholder:text-white  font-medium lg:w-[33vw] max-h-11 my-1 border-b-2 border-white lg:text-[1.2vmax] text-xl pt-8 rounded-lg  pb-8 pl-3 mx-5 min-h-11  bg-transparent text-white" 
       type="Email" placeholder="Email*"
        value={data.Email}
        onChange={handleForm}
       />
-      <input required name='Phone' className=" placeholder:text-white  font-medium md:w-[33vw] max-h-11 my-1 border-b-2 border-white md:text-[1.2vmax] text-xl pt-6 pb-12 pl-3 mx-5 min-h-11 bg-transparent text-white " 
+      <input required name='Phone' className=" placeholder:text-white  font-medium lg:w-[33vw] max-h-11 my-1 border-b-2 border-white lg:text-[1.2vmax] text-xl pt-8 rounded-lg  pb-8 pl-3 mx-5 min-h-11 bg-transparent text-white " 
       type="tel"  placeholder="Phone*"
       value={data.Phone}
       onChange={handleForm}
@@ -67,7 +68,7 @@ function FormFile() {
       </div>     
      
    
-      <textarea name="Address" id="" cols="30" rows="10" placeholder="Tell us about your Project *" required
+      <textarea name="Address" id="" cols="25" rows="8" placeholder="Tell us about your Project *" required
       value={data.Address}
       onChange={handleForm}
       className="w-[70vw] h-auto max-h-[40rem]  md:py-6 min-h-48  border border-black text-white bg-gray-700 px-5 rounded-md mb-3  md:text-[1vmax] text-sm font-medium  block transition-all pb-3 "     

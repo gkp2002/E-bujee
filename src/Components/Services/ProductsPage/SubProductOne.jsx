@@ -4,9 +4,9 @@ import React from "react";
 
 function SubProductOne() {
   return (
-    <div className="w-full md:mb-40">
+    <div className="w-full ">
       <section className="md:flex mx-auto gap-x-12  justify-center">
-        <div className="md:w-2/5 h-auto w-full mb-4">
+        <div className="md:w-2/5 h-auto w-full mb-4 ">
           <img
             src="https://www.dreamtheory.com/wp-content/uploads/2019/07/bulbteeming.gif"
             alt=""
