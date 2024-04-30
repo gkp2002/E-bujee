@@ -16,7 +16,7 @@ function Ecommerce(props) {
           </p>
           <div className="grid lg:grid-cols-2 grid-rows-2 ">
             <div className="lg:py-8 lg:px-5 py-4 w-full ">
-              <h1 className="text-2xl font-bold pb-3 "> Online Store Design/Development </h1>
+              <h1 className="text-2xl font-bold pb-3  "> Online Store Design / Development </h1>
               <p className="text-xl font-medium pb-3">
               Creating captivating digital storefronts 
               converting visitors into customers.
