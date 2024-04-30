@@ -5,11 +5,11 @@ import React from "react";
 function Development(props) {
   return (
     <div className="w-full ">
-      <section className="md:flex mx-auto gap-x-12  justify-center">
+      <section className="md:flex mx-auto   justify-center">
         <div className="md:w-2/5 h-auto w-full mb-4 ">
           <img className="w-10/12" src={props.img} alt="" />
         </div>
-        <div className="md:w-2/5 h-auto justify-center items-center text-white mt-3 lg:px-12">
+        <div className="md:w-2/5 h-auto justify-center items-center text-white mt-3 lg:px-1">
           <p className="text-xl font-medium pb-6 lg:px-5 w-full">
             Transforming ideas into reality with precision, expertise, and a
             touch of magic.

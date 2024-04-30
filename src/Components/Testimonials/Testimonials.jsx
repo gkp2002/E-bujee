@@ -10,7 +10,7 @@ function Testimonials() {
    
     <Carousel transition={{ duration:1 }} loop="true" autoplay="true" className="rounded-xl w-full h-auto  py-12 bg-transparent"  >
     <div className='text-blue-gray-100 flex lg:px-14 lg:gap-x-10 '>
-       <div className=' font-bold  lg:px-80 px-12 '>
+       <div className=' font-bold  lg:px-60 px-12 '>
        <p className='bg-black lg:text-xl lg:leading-8'>"Working with The Tech Titans was a game-changer for our business. 
        Their digital marketing expertise helped us reach new heights and attract a wider audience. We saw 
        a significant increase in leads and conversions, and their team's professionalism and dedication
@@ -23,7 +23,7 @@ function Testimonials() {
     
     <div className='text-white flex lg:px-14 lg:gap-x-10 '>
     
-    <div className=' font-bold  lg:px-80 px-12 '>
+    <div className=' font-bold  lg:px-60 px-12 '>
     <p className='bg-black lg:text-xl lg:leading-8'>
     “I can't say enough good things about The Tech Titans . 
     Their web development 
@@ -36,7 +36,7 @@ function Testimonials() {
 
  <div className='text-white  lg:px-14 lg:gap-x-10 '>
 
- <div className=' font-bold  lg:px-80 px-12 '>
+ <div className=' font-bold  lg:px-60 px-12 '>
  <p className='bg-black lg:text-xl lg:leading-8 '>
  “Choosing The Tech Titans for our IT solutions was one of the best decisions we've made. Their team quickly assessed our needs and
   implemented cost-effective solutions that streamlined our operations and improved efficiency. Their
@@ -49,7 +49,7 @@ function Testimonials() {
 </div>
 <div className='text-white flex lg:px-14 lg:gap-x-10 '>
 
-<div className=' font-bold  lg:px-80 px-12 '>
+<div className=' font-bold  lg:px-60 px-12 '>
 <p className='bg-black lg:text-xl lg:leading-8'>
 “ I've had the pleasure of working with  The Tech Titans on multiple projects, and each time, they've exceeded my 
 expectations. Their professionalism, attention to detail, and commitment to delivering exceptional results set them apart 

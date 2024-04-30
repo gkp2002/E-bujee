@@ -24,19 +24,19 @@ function Navbar() {
 
     <div className="lg:hidden  top-0 left-0 right-0 text-white mx-0 mb-2 w-full h-full bg-gray-900 pt-3 pb-3 fixed z-50" >
     <div className="flex justify-end mx-8">
-    <button className="text-3xl font-bold md:hidden " onClick={handleClicked}>&#10005;</button>
+    <button className="text-3xl font-bold lg:hidden " onClick={handleClicked}>&#10005;</button>
     </div>
          <ul className=" list-none text-white block gap-5 cursor-pointer mt-2  font-bold text-2xl   ">
          <NavLink to='/' onClick={()=>setClick(false)} > <li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">Home</li></NavLink>
           <NavLink to='/Services' onClick={()=>setClick(false)} ><li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">Services</li></NavLink>
        
           <NavLink to='/Careers'  onClick={()=>setClick(false)}> <li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">Careers</li></NavLink>
-          <li className="my-2 pl-11"> <NavLink to="contact-us"  onClick={()=>setClick(false)}><button className="bg-blue-700 text-white text-xl p-1 rounded-md hover:bg-red-400">
+          <li className="my-2 pl-11"> <NavLink to="contact-us"  onClick={()=>setClick(false)}><button className="bg-blue-700 text-white text-xl p-1 rounded-lg hover:bg-red-400">
           Contact-us
         </button></NavLink></li>
         <li>
            <NavLink to="/Schedulemeeting">
-           <button className="bg-orange-700 text-white text-xl px-5 py-2 rounded-md hover:bg-red-400 ">
+           <button className="bg-orange-700 text-white text-xl px-5 py-2 rounded-lg hover:bg-red-400 ">
            Book Meeting Now
            </button> </NavLink> </li>
           </ul>
@@ -52,28 +52,28 @@ function Navbar() {
      
      <Link to='/'>
      <div className=" font-medium  flex items-center text-white  mx-5 ">
-     <p className=" md:text-[2vmax] text-xl font-bold md:pl-14">Techtitan</p>
+     <p className=" lg:text-[2vmax] text-xl font-bold lg:pl-14">Techtitan</p>
      </div>
      </Link>
       <div className=" mx-5 cursor-pointer">
       {
-        click ?<button className="text-3xl font-bold md:hidden" onClick={handleClicked}>&#10005;</button>:
-        <button className="text-3xl font-bold md:hidden" onClick={handleClicked}>&#8801;</button>
+        click ?<button className="text-3xl font-bold lg:hidden" onClick={handleClicked}>&#10005;</button>:
+        <button className="text-3xl font-bold lg:hidden" onClick={handleClicked}>&#8801;</button>
       }
       </div>
-      <div className=" md:flex justify-between items-center text-white text-center mx-10 mb-2 hidden  ">
-            <ul className=" list-none flex gap-5  text-center cursor-pointer mt-3  md:text-[1.5vmax] font-medium text-white ">
+      <div className=" lg:flex justify-between items-center text-white text-center mx-10 mb-2 hidden  ">
+            <ul className=" list-none flex gap-5  text-center cursor-pointer mt-3  lg:text-[1.5vmax] font-medium text-white ">
             <NavLink to='/'><li className=" hover:-translate-y-2">Home</li></NavLink>
           <NavLink to='Services'><li className=" hover:-translate-y-2">Services</li></NavLink>
            <NavLink to='Careers'><li className=" hover:-translate-y-2">Careers</li></NavLink>
            <li>
            <NavLink to="contact-us">
-           <button className="bg-blue-700 text-white text-2xl md:text-[1.2vmax] md:p-2 p-3 rounded-md hover:bg-blue-400 " id="contact-us">
+           <button className="bg-blue-700 text-white text-2xl lg:text-[1.2vmax] lg:p-2 p-3 rounded-lg hover:bg-blue-400 " id="contact-us">
            Contact-us
            </button> </NavLink> </li>
            <li>
            <NavLink to="/Schedulemeeting">
-           <button className="bg-orange-900 text-white text-2xl md:text-[1.2vmax] md:p-2 p-3 rounded-md hover:bg-orange-600 ">
+           <button className="bg-orange-900 text-white text-2xl lg:text-[1.2vmax] lg:p-2 p-3 rounded-lg hover:bg-orange-600 ">
            Book Meeting Now
            </button> </NavLink> </li>
           </ul>
