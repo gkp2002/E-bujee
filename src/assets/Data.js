@@ -1,4 +1,4 @@
-import video from '/src/assets/video.mp4'
+import video from '/src/assets/video1.mp4'
  let Data = [
 {
     id:1,

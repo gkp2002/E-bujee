@@ -11,20 +11,21 @@ function Ecommerce(props) {
           <img className="w-10/12" src={props.img} alt="" />
         </div>
         <div className="md:w-2/5 h-auto justify-center items-center text-white mt-3 lg:px-1 w-full">
-          <p className="text-xl font-medium pb-6 lg:px-5">
+        <p className="text-orange-500 font-normal lg:px-5">Empowering Businesses, One Click at a Time</p>
+        <p className="text-2xl font-bold lg:px-5 w-full py-2 pb-4">
           Redefining online shopping, one seamless experience at a time.
           </p>
           <div className="grid lg:grid-cols-2 grid-rows-1 ">
             <div className="lg:py-8 lg:px-5 py-4 w-full ">
-              <h1 className="text-2xl font-bold pb-3  "> Online Store Design / Development </h1>
-              <p className="text-xl font-medium pb-3">
+              <h1 className="text-xl font-medium pb-3  "> Online Store Design / Development </h1>
+              <p className="text-md font-normal pb-3">
               Creating captivating digital storefronts 
               converting visitors into customers.
               </p>
             </div>
             <div className="lg:py-8 lg:px-5 py-4 w-full ">
-              <h1 className="text-2xl font-bold pb-3">Payment Gateway Integration</h1>
-              <p className="text-xl font-medium pb-3">
+              <h1 className="text-xl font-medium pb-3">Payment Gateway Integration</h1>
+              <p className="text-md font-normal pb-3">
               integrating secure payment solutions for hassle-free
               transactions.
               </p>

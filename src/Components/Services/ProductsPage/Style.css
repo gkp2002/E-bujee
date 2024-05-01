@@ -1,8 +1,6 @@
 .active{
     color:#78909c;
-    
-    border-bottom:3px dashed gray;
-    
+     
 }
 .active #contact-us{
      background-color: red;

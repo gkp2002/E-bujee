@@ -4,3 +4,17 @@
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: orange;
 }
+
+.text-stroke-2{
+    color:inherit;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px;
+    
+    
+}
+
+#actives .active {
+    color:white;
+     background-color: orange;
+     border-radius: 1.5rem;
+}

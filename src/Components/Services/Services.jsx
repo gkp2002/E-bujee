@@ -2,23 +2,23 @@
 /* eslint-disable no-unused-vars */
 
 import ServicesNavigation from "../../Pages/Ourservices/ServicesNavigation";
-import ServicesPage from "../../Pages/ServicesPage";
-import Industry from "./Pages/Industry";
+import Mission from "./Pages/Mission";
 import Proven from "./Pages/Proven";
 import StandIndusrty from "./Pages/StandIndustry";
 import data from "./Pages/data";
-import SubproductNavgation from "./ProductsPage/SubproductNavgation";
+import services from "../../assets/services.png"
+import "../Css/Home.css"
 
 // import React from 'react'
 function Services() {
   return (
     <div>
       <main className="bg-transparent">
-        <div id="Container" className="bg-transparent text-white w-full py-16 flex flex-col justify-center">
+        <div id="Container" className="bg-transparent text-white w-full py-16 mt-20 flex  justify-center">
           <div id="content" className="px-[8vw]  lg:w-[60%]  py-[5vmax]  ">
             <div className="text-white ">
               <h1 className="text-[3.6vmax] font-bold text-3xl leading-none ">
-                Where Ideas Go Viral
+                Where <span className="text-stroke-2 text-orange-500"> Ideas Go</span> Viral
               </h1>
               <p className="md:text-[1.2vmax]  mt-7">
                 With us, your vision isn't just a distant dream, it's the
@@ -26,9 +26,12 @@ function Services() {
                 rewrite this narrative together towards unparalleled success.
               </p>
             </div>
-            <button className="text-2xl px-12 py-4 mt-5 bg-orange-900 rounded-xl">
+            <button className="text-xl px-5 py-3 mt-5 bg-orange-900 rounded-3xl hover:bg-orange-600">
               Book Meeting Now
             </button>
+          </div>
+          <div className="w-[40%]">
+              <img className=" w-[80%] " src={services} alt="" />
           </div>
         </div>
         <div className="bg-white bg-opacity-70">
@@ -67,8 +70,8 @@ function Services() {
          // </div>
 
             }
-            <section className="md:flex justify-center w-full items-center flex-col px-12 py-10 flex-wrap">
-            <h1 className="text-4xl py-10 w-full text-center">
+            <section className="md:flex justify-center w-full items-center flex-col px-12 py-10  flex-wrap">
+            <h1 className="text-5xl w-full text-center">
             Where Ideas Go Viral
 
             </h1>
@@ -86,9 +89,11 @@ function Services() {
             </div>
             </section>
             <section className="w-full h-full mx-auto flex-col  ">
+            
                <ServicesNavigation/>
             </section>
-        </div>
+            </div>
+            <Mission/>
       </main>
     </div>
   );

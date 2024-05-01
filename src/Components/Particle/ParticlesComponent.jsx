@@ -42,7 +42,7 @@ const ParticlesComponent = (props) => {
         modes: {
           push: {
             distance: 200,
-            duration: 15,
+            duration: 10,
           },
           grab: {
             distance: 180,
@@ -51,14 +51,14 @@ const ParticlesComponent = (props) => {
       },
       particles: {
         color: {
-          value: "#FFFFFF",
+          value: "#ddd",
         },
         links: {
           color: "#FFFFFF",
           distance: 100,
           enable: true,
-          opacity: 0.3,
-          width: 3,
+          opacity: 0.2,
+          width: 2,
         },
         move: {
           direction: "none",

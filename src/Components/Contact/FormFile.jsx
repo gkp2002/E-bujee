@@ -1,12 +1,13 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function FormFile() {
     const [data,setData] = React.useState({
         Name:"",
         Company:"",
         Email:"",
-        Phone:Number(""),
+        Phone:"",
         Address:""
     })
     const handleForm = (e) =>{
@@ -37,9 +38,9 @@ function FormFile() {
     
   return (
     <div>
-    <div className="text-center flex justify-center flex-col items-center h-auto bg-opacity-45 bg-gray-700 pb-3  ">
+    <div className="text-center flex justify-center flex-col items-center h-auto bg-opacity-45 bg-gray-900 pb-3  ">
       <h1 className=" lg:text-[1.8vmax] text-2xl  font-semibold uppercase text-white pt-3 lg:my-6" >Inquiry Form</h1>      
-      <form action="post" onSubmit={handleSubmit} className=" border-2 lg:mt-7 border-white flex flex-col justify-center items-start py-2 px-10 pb-5 mt-2 bg-opacity-45 bg-gray-700">
+      <form action="post" onSubmit={handleSubmit} className=" border-2 lg:mt-7 border-white flex flex-col justify-center items-start py-2 px-10 pb-5 mt-2 bg-opacity-45">
    
       <div className="mt-3 w-[75vw] flex justify-center items-center flex-col py-5 lg:py-3">
     <div className="md:flex  block lg:py-3">
@@ -71,13 +72,13 @@ function FormFile() {
       <textarea name="Address" id="" cols="25" rows="8" placeholder="Tell us about your Project *" required
       value={data.Address}
       onChange={handleForm}
-      className="w-[70vw] h-auto max-h-[40rem]  md:py-6 min-h-48  border border-black text-white bg-gray-700 px-5 rounded-md mb-3  md:text-[1vmax] text-sm font-medium  block transition-all pb-3 "     
+      className="w-[70vw] h-auto max-h-[40rem]  md:py-6 min-h-48  border border-black text-white bg-gray-900  px-5 rounded-md mb-3  md:text-[1vmax] text-sm font-medium  block transition-all pb-3 "     
       ></textarea>
   
       </div>
       
-      <div className="flex font-semibold text-2xl pb-2 px-4 gap-2 text-white">
-      <input required type="checkBox" className="max-h-8  white bg-transparent border border-gray-600  font-medium w-12 " /> <span className="md:text-[1.5vmax]">I accept the privacy policy. * </span>
+      <div className="flex font-semibold text-2xl px-4 gap-2 text-white">
+      <input required type="checkBox" className="max-h-4  white bg-transparent border border-gray-600 mt-2  font-medium w-12 " /> <span className="md:text-[1vmax] "><Link> accept the privacy policy.   </Link> </span>
       </div>         
      <button type="Submit" className="text-center cursor-pointer font-semibold md:text-[1.3vmax] rounded-[10em] border-none py-3 px-9 text-white bg-red-800 hover:opacity-50  mt-5">Submit</button>
       </form>    

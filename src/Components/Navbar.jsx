@@ -68,12 +68,12 @@ function Navbar() {
            <NavLink to='Careers'><li className=" hover:-translate-y-2">Careers</li></NavLink>
            <li>
            <NavLink to="contact-us">
-           <button className="bg-blue-700 text-white text-2xl lg:text-[1.2vmax] lg:p-2 p-3 rounded-lg hover:bg-blue-400 " id="contact-us">
+           <button className="bg-orange-900 text-white text-2xl lg:text-[1.2vmax] lg:p-2 p-3 rounded-3xl hover:bg-orange-600 " id="contact-us">
            Contact-us
            </button> </NavLink> </li>
            <li>
            <NavLink to="/Schedulemeeting">
-           <button className="bg-orange-900 text-white text-2xl lg:text-[1.2vmax] lg:p-2 p-3 rounded-lg hover:bg-orange-600 ">
+           <button className="bg-orange-900 text-white text-2xl lg:text-[1.2vmax] lg:p-2 p-3 rounded-3xl hover:bg-orange-600 ">
            Book Meeting Now
            </button> </NavLink> </li>
           </ul>
