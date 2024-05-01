@@ -5,7 +5,7 @@ import React from "react";
 function HiringProcess() {
   return (
     <div>
-      <section className="bg-gray-900 text-white bg-opacity-70 py-16 px-28">
+      <section className="bg-gray-900 text-white bg-opacity-70 py-16 lg:px-28 px-2">
         <div className="" >
           <h1 className="text-4xl py-4">Don't See a Position That Matches Your Skills?</h1>
           <p className="text-md ">

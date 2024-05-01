@@ -42,8 +42,8 @@ function StoriesSection(props) {
               steadfast allies in achieving greatness.
             </p>
           </div>
-             <div className="w-full mx-20">
-            <img className=" w-[70%]" src={props.img} alt=""  />
+             <div className=" mx-20">
+            <img className=" w-[90%]" src={props.img} alt=""  />
           </div>
         </div>
       </section>
