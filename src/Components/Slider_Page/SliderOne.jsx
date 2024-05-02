@@ -15,7 +15,7 @@ function SliderOne(props) {
           className="h-full w-full object-cover"
         ></video>
       </div>
-      <div className="max-w-full mx-auto h-auto text-white   flex md:items-center  flex-col py-40  ">
+      <div className="max-w-full mx-auto h-auto text-white   flex md:items-center  flex-col py-52  ">
         <div className=" md:py-14 md:px-[13vmax] px-3 ">
           <h1 className="text-white text-[3.7vmax] font-bold ">
             {" "}

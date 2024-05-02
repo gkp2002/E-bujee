@@ -4,13 +4,19 @@
 import ServicesNavigation from "../../Pages/Ourservices/ServicesNavigation";
 import Mission from "./Pages/Mission";
 import Proven from "./Pages/Proven";
-import StandIndusrty from "./Pages/StandIndustry";
+// import StandIndusrty from "./Pages/StandIndustry";
 import data from "./Pages/data";
 import services from "../../assets/services.png"
 import "../Css/Home.css"
-
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { NavLink } from "react-router-dom";
 // import React from 'react'
 function Services() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div>
       <main className="bg-transparent">
@@ -27,9 +33,11 @@ function Services() {
               </p>
             </div>
             {
-            // <button className="text-xl px-5 py-3 mt-5 bg-orange-900 rounded-3xl hover:bg-orange-600">
-            //   Book Meeting Now
-            // </button>
+              <NavLink to='contact-us'>
+            <button className=" text-xl px-6 py-2 mt-5 bg-orange-900 rounded-3xl hover:bg-orange-600 " >
+              contact us 
+            </button>
+            </NavLink>
             }
           </div>
           <div className="w-[40%]">
@@ -73,11 +81,13 @@ function Services() {
 
             }
             <section className="md:flex justify-center w-full items-center flex-col px-12 py-10  flex-wrap">
-            <h1 className="text-5xl w-full text-center">
-            Where Ideas Go Viral
-
-            </h1>
-            <div className="grid lg:grid-cols-4 grid-rows-1 w-full  ">
+            <h1 className="text-6xl w-full text-center "   data-aos="fade-up"
+            data-aos-duration="1000"
+            data-loaded="true">
+            Where Ideas Go Viral  </h1>
+            <div className="grid lg:grid-cols-4 grid-rows-1 w-full  "   data-aos="fade-down"
+            data-aos-duration="1000"
+            data-loaded="true">
             {data.map((item) => {
               return (
                 <Proven
@@ -90,9 +100,8 @@ function Services() {
             })}
             </div>
             </section>
-            <section className="w-full h-full mx-auto flex-col  ">
-            
-               <ServicesNavigation/>
+            <section className="w-full h-full mx-auto flex-col ">
+            <ServicesNavigation/>
             </section>
             </div>
             <Mission/>

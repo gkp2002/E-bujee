@@ -31,7 +31,7 @@ function StoriesSection(props) {
             <p className="md:text-2xl font-medium ">
               We're more than just a company. We're a force of change . We
               believe in creating legacies, dedicated to magnifying your brand's
-              impact at a global stage 
+              impact at a global stage
             </p>
             <p className="text-md font-normal mt-4 leading-7">
               We are Fueled by passion to make a meaningful difference in the
@@ -43,7 +43,9 @@ function StoriesSection(props) {
             </p>
           </div>
              <div className=" mx-20">
-            <img className=" w-[90%]" src={props.img} alt=""  />
+            <img className=" w-[90%]" src={props.img} alt=""    data-aos="fade-up-right"
+            data-aos-duration="1000"
+            data-loaded="true"/>
           </div>
         </div>
       </section>
