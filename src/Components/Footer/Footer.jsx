@@ -71,7 +71,7 @@ function Footer() {
                 to="contact-us"
                 className="lg:text-[1vmax]  hover:text-orange-600 underline text-white text-sm border-none p-1"
               >
-                Contact-us
+                Contact-Us
               </NavLink>
             </div>
             </div>

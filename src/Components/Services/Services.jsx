@@ -21,7 +21,7 @@ function Services() {
     <div>
       <main className="bg-transparent">
         <div id="Container" className="bg-transparent text-white w-full py-10 mt-20 flex  justify-center">
-          <div id="content" className="px-[8vw]  lg:w-[60%]  py-[5vmax]  ">
+          <div id="content" className="px-[8vw] flex flex-col justify-center lg:w-[60%]  py-[5vmax]  ">
             <div className="text-white ">
               <h1 className="text-[3.6vmax] font-bold text-3xl leading-none  ">
                 Where <span className="text-stroke-2 text-orange-500"> Ideas Go</span> Viral
@@ -35,7 +35,7 @@ function Services() {
             {
               <NavLink to='contact-us'>
             <button className=" text-xl px-6 py-2 mt-5 bg-orange-900 rounded-3xl hover:bg-orange-600 " >
-              contact us 
+              Contact Us 
             </button>
             </NavLink>
             }
