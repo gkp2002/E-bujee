@@ -27,10 +27,10 @@ function Navbar() {
     <button className="text-3xl font-bold lg:hidden " onClick={handleClicked}>&#10005;</button>
     </div>
          <ul className=" list-none text-white block gap-5 cursor-pointer mt-2  font-bold text-2xl   ">
-         <NavLink reloadDocument to='/' onClick={()=>setClick(false)} > <li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">Home</li></NavLink>
-          <NavLink reloadDocument to='/Services' onClick={()=>setClick(false)} ><li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">Services</li></NavLink>
+         <NavLink  to='/' onClick={()=>setClick(false)} > <li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">Home</li></NavLink>
+          <NavLink  to='/Services' onClick={()=>setClick(false)} ><li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">Services</li></NavLink>
        
-          <NavLink reloadDocument to='/Careers'  onClick={()=>setClick(false)}> <li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">Careers</li></NavLink>
+          <NavLink  to='/Careers'  onClick={()=>setClick(false)}> <li className="hover:text-red-400 hover:scale-100 hover:bg-green-300 rounded-xl pl-11">Careers</li></NavLink>
           <li className="my-2 pl-11"> <NavLink to="contact-us"  onClick={()=>setClick(false)}><button className="bg-blue-700 text-white text-xl p-1 rounded-lg hover:bg-red-400">
           Contact-us
         </button></NavLink></li>
@@ -65,11 +65,11 @@ function Navbar() {
       </div>
       <div className=" lg:flex justify-between items-center text-white text-center mx-10 mb-2 hidden  ">
             <ul className=" list-none flex gap-5 items-center text-center cursor-pointer mt-3  lg:text-[1.5vmax] font-medium text-white ">
-            <NavLink reloadDocument to='/'> <li className=" hover:-translate-y-2">Home</li></NavLink>
-          <NavLink reloadDocument to='Services'><li className=" hover:-translate-y-2">Services</li></NavLink>
-           <NavLink reloadDocument to='Careers'><li className=" hover:-translate-y-2">Careers</li></NavLink>
+            <NavLink  to='/'> <li className=" hover:-translate-y-2">Home</li></NavLink>
+          <NavLink  to='/Services'><li className=" hover:-translate-y-2">Services</li></NavLink>
+           <NavLink  to='/Careers'><li className=" hover:-translate-y-2">Careers</li></NavLink>
            <li>
-           <NavLink  reloadDocument to="contact-us">
+           <NavLink   to="contact-us">
            <button className="bg-orange-900 text-white text-2xl lg:text-[1.2vmax] py-2 px-3 rounded-3xl hover:bg-orange-600 " id="contact-us">
            Contact-Us
            </button> </NavLink> </li>
