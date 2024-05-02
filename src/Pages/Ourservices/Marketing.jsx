@@ -25,7 +25,7 @@ function Marketing(props) {
               </p>
             </div>
             <div className="lg:py-4 lg:px-5 py-4 w-full">
-              <h1 className="text-xl font-medium pb-3 px-3">
+              <h1 className="text-xl font-medium pb-3 ">
               Social Media Marketing
               </h1>
               <p className="text-md font-normal pb-3">

@@ -20,13 +20,13 @@ function Services() {
   return (
     <div>
       <main className="bg-transparent">
-        <div id="Container" className="bg-transparent text-white w-full py-16 mt-20 flex  justify-center">
+        <div id="Container" className="bg-transparent text-white w-full py-10 mt-20 flex  justify-center">
           <div id="content" className="px-[8vw]  lg:w-[60%]  py-[5vmax]  ">
             <div className="text-white ">
-              <h1 className="text-[3.6vmax] font-bold text-3xl leading-none ">
+              <h1 className="text-[3.6vmax] font-bold text-3xl leading-none  ">
                 Where <span className="text-stroke-2 text-orange-500"> Ideas Go</span> Viral
               </h1>
-              <p className="md:text-[1.2vmax]  mt-7">
+              <p className="md:text-[1.2vmax]  mt-8">
                 With us, your vision isn't just a distant dream, it's the
                 exciting next chapter in your remarkable success story. Let's
                 rewrite this narrative together towards unparalleled success.

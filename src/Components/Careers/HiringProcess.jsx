@@ -8,16 +8,20 @@ function HiringProcess() {
       <section className="bg-gray-900 text-white bg-opacity-70 py-16 lg:px-28 px-2">
         <div className="" >
           <h1 className="text-4xl py-4">Don't See a Position That Matches Your Skills?</h1>
-          <p className="text-md ">
-            We're always interested in hearing from talented individuals, even
-            if there are no current openings that match your skills and
-            experience. Feel free to send us your resume and a brief overview of
-            what you can bring to the team to hr@thetechtitans.com.
+          <p className="text-md px-10 ">
+          <ul className="list-disc">
+          <li>
+          We're always interested in hearing from talented individuals, even
+          if there are no current openings that match your skills and
+          experience. Feel free to send us your resume and a brief overview of
+          what you can bring to the team to hr@thetechtitans.com.
+          </li>
+          </ul>
           </p>
         </div>
         <div className=" py-5">
           <h1 className="text-4xl py-4">Here's a Peek into Our Hiring Process</h1>
-          <ul className=" list-decimal px-10 ">
+          <ul className=" list-disc px-10 ">
             <li>
               Screening: We carefully review every resume, looking for the
               unique qualities that make you shine.

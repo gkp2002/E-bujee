@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import "../../Css/Home.css"
+import { NavLink } from 'react-router-dom'
+
 function Mission() {
   return (
     <div>
@@ -9,9 +11,12 @@ function Mission() {
                 <h1> Your <span className='text-stroke-2 text-orange-900'>Success </span>, Our <span className='text-stroke-2 text-orange-900'>Mission </span></h1>
             </div>
             <div className='text-white py-5 '>
-             {
-              // <button className='lg:text-2xl text-xl py-2 bg-orange-900 px-5 rounded-md hover:bg-orange-800 hover:opacity-90'>Schedule Meeting</button>
-            }
+             
+              <NavLink to="contact-us">
+              <button className="bg-orange-900 text-white text-2xl lg:text-[1.2vmax] py-2 px-5 rounded-3xl hover:bg-orange-600 " id="contact-us">
+              Contact-Us
+              </button> </NavLink>
+            
             </div>
         
         </section>

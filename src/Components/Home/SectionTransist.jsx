@@ -19,7 +19,7 @@ function SectionTransist(props) {
         className="w-full h-full bg-gray-900  py-16 "
       >
         <div
-          className="text-7xl font-bold text-white text-center  mb-5"
+          className="text-7xl font-bold text-white text-center  mb-5 "
           data-aos="fade-down"
         > <span className="text-stroke-2 text-orange-500"> Who We </span>Are
         </div>

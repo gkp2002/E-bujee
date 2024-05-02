@@ -71,7 +71,7 @@ function Navbar() {
            <li>
            <NavLink to="contact-us">
            <button className="bg-orange-900 text-white text-2xl lg:text-[1.2vmax] py-2 px-3 rounded-3xl hover:bg-orange-600 " id="contact-us">
-           Contact-us
+           Contact-Us
            </button> </NavLink> </li>
            {
           //  <li>

@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import '../Css/Home.css'
 function SliderOne(props) {
   return (
     <section>
@@ -17,9 +17,8 @@ function SliderOne(props) {
       </div>
       <div className="max-w-full mx-auto h-auto text-white   flex md:items-center  flex-col py-52  ">
         <div className=" md:py-14 md:px-[13vmax] px-3 ">
-          <h1 className="text-white text-[3.7vmax] font-bold ">
-            {" "}
-            {props.heading}
+          <h1 className="text-white text-[4vmax] font-bold ">
+          Crafting Your <span className="text-stroke-2 ">Digital Legacy</span> 
           </h1>
           <p className="text-white text-[1.8vmax] font-medium ">
             {props.content}
