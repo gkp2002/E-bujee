@@ -9,7 +9,7 @@ function Testimonials() {
     <div>
    
     <Carousel transition={{ duration:1 }} loop="true" autoplay="true" className="rounded-xl w-full h-auto  py-12 bg-transparent"  >
-    <div className='text-blue-gray-100 flex lg:px-14 lg:gap-x-10 '>
+    <div className='text-white flex lg:px-14 lg:gap-x-10 '>
        <div className=' font-bold  lg:px-60 px-12 '>
        <p className='bg-black lg:text-xl font-normal  lg:leading-8'><span className='text-orange-500'>" </span>Working with The Tech Titans was a game-changer for our business. 
        Their digital marketing expertise helped us reach new heights and attract a wider audience. We saw 

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink,Link } from "react-router-dom";
-
+import './Css/NavLink.css'
 function Navbar() {
 
  
@@ -34,11 +34,13 @@ function Navbar() {
           <li className="my-2 pl-11"> <NavLink to="contact-us"  onClick={()=>setClick(false)}><button className="bg-blue-700 text-white text-xl p-1 rounded-lg hover:bg-red-400">
           Contact-us
         </button></NavLink></li>
-        <li>
-           <NavLink to="/Schedulemeeting">
-           <button className="bg-orange-700 text-white text-xl px-5 py-2 rounded-lg hover:bg-red-400 ">
-           Book Meeting Now
-           </button> </NavLink> </li>
+        {
+        // <li>
+        //    <NavLink to="/Schedulemeeting">
+        //    <button className="bg-orange-700 text-white text-xl px-5 py-2 rounded-lg hover:bg-red-400 ">
+        //    Book Meeting Now
+        //    </button> </NavLink> </li>
+        }
           </ul>
       </div>
           </div>
@@ -48,11 +50,11 @@ function Navbar() {
     <div className="flex items-center flex-col ">
 
          
-     <nav className={position ? "flex top-5 bg-gray-900 rounded-full h-[4vmax] py-7 overflow-clip transition-[height] ease-out duration-600  px-11 z-50 items-center fixed" :" h-[4vmax] w-full py-10 px-11 bg-transparent text-white flex items-center justify-between p-4 fixed z-50"}>
-     
+     <nav className={position ? "flex top-5 bg-gray-900 rounded-full h-[4vmax] py-7  px-11 z-50 items-center fixed" :" h-[4vmax] w-full py-10 px-11 bg-transparent text-white flex items-center justify-between p-4 fixed z-50"}>
+      
      <Link to='/'>
      <div className=" font-medium  flex items-center text-white  mx-5 ">
-     <p className=" lg:text-[2vmax] text-xl font-bold lg:pl-14">Techtitan</p>
+     <p className=" lg:text-[2vmax] text-xl font-bold lg:pl-14">The Tech Titan</p>
      </div>
      </Link>
       <div className=" mx-5 cursor-pointer">
@@ -62,20 +64,22 @@ function Navbar() {
       }
       </div>
       <div className=" lg:flex justify-between items-center text-white text-center mx-10 mb-2 hidden  ">
-            <ul className=" list-none flex gap-5  text-center cursor-pointer mt-3  lg:text-[1.5vmax] font-medium text-white ">
+            <ul className=" list-none flex gap-5 items-center text-center cursor-pointer mt-3  lg:text-[1.5vmax] font-medium text-white ">
             <NavLink to='/'><li className=" hover:-translate-y-2">Home</li></NavLink>
           <NavLink to='Services'><li className=" hover:-translate-y-2">Services</li></NavLink>
            <NavLink to='Careers'><li className=" hover:-translate-y-2">Careers</li></NavLink>
            <li>
            <NavLink to="contact-us">
-           <button className="bg-orange-900 text-white text-2xl lg:text-[1.2vmax] lg:p-2 p-3 rounded-3xl hover:bg-orange-600 " id="contact-us">
+           <button className="bg-orange-900 text-white text-2xl lg:text-[1.2vmax] py-2 px-3 rounded-3xl hover:bg-orange-600 " id="contact-us">
            Contact-us
            </button> </NavLink> </li>
-           <li>
-           <NavLink to="/Schedulemeeting">
-           <button className="bg-orange-900 text-white text-2xl lg:text-[1.2vmax] lg:p-2 p-3 rounded-3xl hover:bg-orange-600 ">
-           Book Meeting Now
-           </button> </NavLink> </li>
+           {
+          //  <li>
+          //  <NavLink to="/Schedulemeeting">
+          //  <button className="bg-orange-900 text-white text-2xl lg:text-[1.2vmax] lg:p-2 p-3 rounded-3xl hover:bg-orange-600 ">
+          //  Book Meeting Now
+          //  </button> </NavLink> </li>
+           }
           </ul>
       </div>
       </nav>

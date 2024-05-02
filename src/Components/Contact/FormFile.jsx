@@ -38,9 +38,9 @@ function FormFile() {
     
   return (
     <div>
-    <div className="text-center flex justify-center flex-col items-center h-auto bg-opacity-45 bg-gray-900 pb-3  ">
+    <div className="text-center flex justify-center flex-col items-center h-auto  bg-black pb-3  ">
       <h1 className=" lg:text-[1.8vmax] text-2xl  font-semibold uppercase text-white pt-3 lg:my-6" >Inquiry Form</h1>      
-      <form action="post" onSubmit={handleSubmit} className=" border-2 lg:mt-7 border-white flex flex-col justify-center items-start py-2 px-10 pb-5 mt-2 bg-opacity-45">
+      <form action="post" onSubmit={handleSubmit} className=" border-2 rounded-lg lg:mt-7 border-white flex flex-col justify-center items-start py-2 px-10 pb-5 mt-2 bg-opacity-45">
    
       <div className="mt-3 w-[75vw] flex justify-center items-center flex-col py-5 lg:py-3">
     <div className="md:flex  block lg:py-3">

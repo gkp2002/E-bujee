@@ -9,7 +9,9 @@ function Mission() {
                 <h1> Your <span className='text-stroke-2 text-orange-900'>Success </span>, Our <span className='text-stroke-2 text-orange-900'>Mission </span></h1>
             </div>
             <div className='text-white py-5 '>
-              <button className='lg:text-2xl text-xl py-2 bg-orange-900 px-5 rounded-md hover:bg-orange-800 hover:opacity-90'>Schedule Meeting</button>
+             {
+              // <button className='lg:text-2xl text-xl py-2 bg-orange-900 px-5 rounded-md hover:bg-orange-800 hover:opacity-90'>Schedule Meeting</button>
+            }
             </div>
         
         </section>

@@ -26,9 +26,11 @@ function Services() {
                 rewrite this narrative together towards unparalleled success.
               </p>
             </div>
-            <button className="text-xl px-5 py-3 mt-5 bg-orange-900 rounded-3xl hover:bg-orange-600">
-              Book Meeting Now
-            </button>
+            {
+            // <button className="text-xl px-5 py-3 mt-5 bg-orange-900 rounded-3xl hover:bg-orange-600">
+            //   Book Meeting Now
+            // </button>
+            }
           </div>
           <div className="w-[40%]">
               <img className=" w-[80%] " src={services} alt="" />

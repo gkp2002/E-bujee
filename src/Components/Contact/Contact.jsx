@@ -7,12 +7,12 @@ function Contact() {
   return (
     <div className="flex justify-center flex-col  bg-transparent">
       <div className="md:flex block md:items-center text-white pt-[5vmax] px-0 border-b-2 border-white  ">
-        <div className="  flex-col  md:ml-32  gap-5 py-12">
+        <div className="  flex-col  md:ml-32  gap-5 py-20">
           <h1 className="md:text-[3vmax] text-3xl font-extrabold md:p-3 ">
             Get in Touch Now !
           </h1>
-          <div className="py-3">
-          <p className="font-bold md:text-[1.3vmax] text-xl md:px-1 Q md:leading-relaxed ">
+          <div className="py-3 px-3">
+          <p className="font-medium md:text-[1.3vmax] text-xl md:px-1  md:leading-relaxed ">
           We're excited to work with you soon! Please drop an email with your
           details & requirements to{" "}
           <Link
@@ -23,18 +23,20 @@ function Contact() {
           info@thetechtitans.com.
           </Link>
           </p>
-          <p className="font-bold md:text-[1.3vmax] text-xl md:px-1 md:leading-relaxed ">
+          <p className="font-medium md:text-[1.3vmax] text-xl md:px-1 md:leading-relaxed ">
           You can also fill this form & we'll get back in 2 business days.
           </p>
           </div>
-          <div className="py-8">
-          <button
-          type="Submit"
-          className="text-center cursor-pointer font-semibold md:text-[1.3vmax] md:p-4 myx-3 text-xl rounded-[10em]
-          border-none py-3 px-9 text-white bg-red-800 hover:opacity-50">
-          Schedule Metting
-          </button>
-          </div>
+          {
+          // <div className="py-8 px-3">
+          // <button
+          // type="Submit"
+          // className="text-center cursor-pointer font-semibold md:text-[1.3vmax] md:p-4 myx-3 text-xl rounded-[10em]
+          // border-none py-3 px-9 text-white bg-red-800 hover:opacity-50">
+          // Schedule Metting
+          // </button>
+          // </div>
+  }
         </div>
         {
         // <div className=" flex  md:items-start  flex-col md:w-11/22 font-bold ">
