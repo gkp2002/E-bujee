@@ -15,8 +15,8 @@ function SliderOne(props) {
           className="h-full w-full object-cover"
         ></video>
       </div>
-      <div className="max-w-full mx-auto h-auto text-white   flex md:items-center  flex-col py-52  ">
-        <div className=" md:py-14 md:px-[13vmax] px-3 ">
+      <div className="max-w-full mx-auto h-auto text-white   flex md:items-center  flex-col md:py-52 py-60  ">
+        <div className=" md:py-10 md:px-[13vmax] px-3 bottom-0">
           <h1 className="text-white text-[4vmax] font-bold ">
           Crafting Your <span className="text-stroke-2 ">Digital Legacy</span> 
           </h1>
@@ -24,11 +24,11 @@ function SliderOne(props) {
             {props.content}
           </p>
           {
-          // <NavLink to="/Schedulemeeting">
-          //   <button className="md:px-12 md:py-4 md:text-xl font-bold bg-orange-900 hover:bg-orange-700 rounded-md px-3 py-3 mt-4">
-          //     Book Meeting Now
-          //   </button>
-          // </NavLink>
+          <NavLink to="/contact-us">
+            <button className="md:px-10 md:py-3 md:text-xl font-bold bg-orange-900 hover:bg-orange-700 rounded-3xl px-5 py-2 mt-3">
+             Contact-Us
+            </button>
+          </NavLink>
           }
         </div>
       </div>

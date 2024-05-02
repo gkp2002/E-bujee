@@ -4,11 +4,13 @@ import Header from './Header'
 import CareerPosition from './CareerPosition'
 import Position from './Position'
 import "../Css/Home.css"
+import { Link } from 'react-router-dom'
 import HiringProcess from './HiringProcess'
 function CareersPage() {
   return (
     <div>
-       <Header/>
+       <Header />
+       <Link  className='text-white'><button>Hiring</button></Link>
        <section className='text-white py-12 bg-gray-900'>
        <div className='flex flex-col items-center justify-center'>
        <h1 className='text-6xl mb-3 font-bold'> <span className="text-stroke-2 text-orange-700 animate-pulse">Current Openings</span> </h1>
@@ -20,7 +22,9 @@ function CareersPage() {
             })
          }
        </section>
-       <HiringProcess/>
+       <div id="hiring">
+       <HiringProcess />
+       </div>
     </div>
   )
 }

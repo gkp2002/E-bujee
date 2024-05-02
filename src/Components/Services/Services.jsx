@@ -33,7 +33,7 @@ function Services() {
               </p>
             </div>
             {
-              <NavLink to='contact-us'>
+              <NavLink to='/contact-us'>
             <button className=" text-xl px-6 py-2 mt-5 bg-orange-900 rounded-3xl hover:bg-orange-600 " >
               Contact Us 
             </button>

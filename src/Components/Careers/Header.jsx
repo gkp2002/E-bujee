@@ -1,12 +1,14 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-irregular-whitespace */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link,useNavigate,Route, Routes } from "react-router-dom";
 import "../Css/Home.css"
-function Header() {
+function Header(props) {
   return (
     <div>
+  
       <header className="bg-transparent w-full text-gray-100">
         <div className="py-[10vmax] lg:px-[10vmax] px-4   ">
           <div className="text-[5vmax] font-bold py-3 ">
@@ -17,9 +19,11 @@ function Header() {
            making a difference and driving innovation.
           </h5>
           <div className="py-4">
-            <button className="text-[1.3vmax] font-bold px-8 py-3 rounded-3xl bg-orange-900 hover:bg-orange-600 ">
-              See All Opening
-            </button>
+          <Link>
+          <button className="text-[1.3vmax] font-bold px-8 py-3 rounded-3xl bg-orange-900 hover:bg-orange-600 " >
+          See All Opening
+          </button>
+          </Link>
           </div>
         </div>
       </header>

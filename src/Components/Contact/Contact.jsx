@@ -20,7 +20,7 @@ function Contact() {
           className="underline text-blue-800"
           >
           {" "}
-          info@thetechtitans.com.
+          info@thetechtitan.com.
           </Link>
           </p>
           <p className="font-medium md:text-[1.3vmax] text-xl md:px-1 md:leading-relaxed ">

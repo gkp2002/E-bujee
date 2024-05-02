@@ -16,7 +16,7 @@ function Footer() {
             <p className=" text-2xl font-bold lg:text-[1.6vmax] ">
             Empower Your Journey With Our Digital Solutions
             </p>
-            <NavLink to="/Schedulemeeting">
+            <NavLink to="/contact-us">
             <button className="text-center cursor-pointer font-semibold text-xl rounded-[10em] border-none  py-2 px-10 text-white bg-red-600 hover:opacity-50 lg:text-[1.2vmax] ">
               Contact-us
             </button>
@@ -28,7 +28,7 @@ function Footer() {
             </h1>
             <p className="text-sm lg:text-[1vmax] font-semibold lg:my-2">
         
-            <Link to="mailto:info@thetechtitans.com" className="underline text-blue-800"> info@thetechtitans.com.</Link>
+            <Link to="mailto:info@thetechtitans.com" className="underline text-blue-800"> info@thetechtitan.com.</Link>
             </p>
             <p className="text-sm lg:text-[1vmax] font-semibold lg:my-2">
         
@@ -117,7 +117,7 @@ function Footer() {
                 {" "}
                 <img className="w-8" src={insta} alt="" />{" "}
               </Link>
-              <Link to="https://twitter.com/">
+              <Link to="https://www.linkedin.com/company/thetechtitan/">
                 {" "}
                 <img className="w-8" src={linkdin} alt="" />{" "}
               </Link>

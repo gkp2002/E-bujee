@@ -12,7 +12,7 @@ function ServicesNavigation() {
   }, []);
   return (
     <div>
-      <header className="lg:flex justify-evenly flex-col items-center p-5  w-full bg-black ">
+      <header className="lg:flex justify-evenly flex-col items-center p-5  w-full bg-gray-900 ">
       <div className='text-white text-6xl font-bold pb-4' data-aos="fade-up">Our <span className='text-stroke-2 text-orange-500'>Services</span></div>
         <div className="md:flex md:justify-evenly items-center lg:py-5 lg:mb-12" data-aos="fade-down" id="actives" >
         <NavLink className=" mx-1" to="BrandSolution" >

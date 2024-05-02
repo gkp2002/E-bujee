@@ -16,7 +16,7 @@ function SectionTransist(props) {
     <div>
       <section
         // style={{ backgroundImage: `url(${props.bgimg})` }}
-        className="w-full h-full bg-gray-900  py-16 "
+        className="w-full h-full bg-white bg-opacity-45 py-16 "
       >
         <div
           className="text-7xl font-bold text-white text-center  mb-5 "
