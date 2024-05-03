@@ -3,7 +3,7 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar";
-import {  Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Services from "./Components/Services/Services";
 import ParticlesComponent from "./Components/Particle/ParticlesComponent";
 import Calendy from "./Components/ScheduleMeeting/Calendy";
@@ -27,41 +27,37 @@ function App() {
       <div className="md:flex hidden"></div>
       <Navbar />
       <ParticlesComponent id="particle" />
- 
-        <Routes>
-          <Route path="/" element={<Home />}>
-            <Route index element={<BrandSolution img={brand} />} />
-            <Route
-              path="/BrandSolution"
-              element={<BrandSolution img={brand} />}
-            />
-            <Route path="/Design" element={<Design img={design} />} />
-            <Route
-              path="/Development"
-              element={<Development img={develop} />}
-            />
-            <Route path="/TechSoluton" element={<TechSolution img={tech} />} />
-            <Route path="/E-commerce" element={<Ecommerce img={ecomm} />} />
-            <Route path="/Marketing" element={<Marketing img={markg} />} />
-          </Route>
-          <Route path="/contact-us" element={<Contact />} />
-          <Route path="/Careers" element={<CareersPage />} />
-          <Route path="/Schedulemeeting" element={<Calendy />} />
-          <Route path="/Services" element={<Services />}>
-            <Route index element={<BrandSolution img={brand} />} />
-            <Route
-              path="BrandSolution"
-              element={<BrandSolution img={brand} />}
-            />
-            <Route path="Design" element={<Design img={design} />} />
-            <Route path="Development" element={<Development img={develop} />} />
-            <Route path="TechSoluton" element={<TechSolution img={tech} />} />
-            <Route path="E-commerce" element={<Ecommerce img={ecomm} />} />
-            <Route path="Marketing" element={<Marketing img={markg} />} />
-          </Route>
-          <Route path="/*" element={<Home />} />
-        </Routes>
-     
+      <Routes >
+        <Route path="/" element={<Home />}>
+          <Route index element={<BrandSolution img={brand} />} />
+          <Route
+            path="/BrandSolution"
+            element={<BrandSolution img={brand} />}
+          />
+          <Route path="/Design" element={<Design img={design} />} />
+          <Route path="/Development" element={<Development img={develop} />} />
+          <Route path="/TechSoluton" element={<TechSolution img={tech} />} />
+          <Route path="E-commerce" element={<Ecommerce img={ecomm} />} />
+          <Route path="Marketing" element={<Marketing img={markg} />} />
+        </Route>
+        <Route path="/contact-us" element={<Contact />} />
+        <Route path="/Careers" element={<CareersPage />} />
+        <Route path="/Schedulemeeting" element={<Calendy />} />
+        <Route path="/Services" element={<Services />}>
+          <Route index element={<BrandSolution img={brand} />} />
+          <Route
+            path="BrandSolution"
+            element={<BrandSolution img={brand} />}
+          />
+          <Route path="Design" element={<Design img={design} />} />
+          <Route path="Development" element={<Development img={develop} />} />
+          <Route path="TechSoluton" element={<TechSolution img={tech} />} />
+          <Route path="E-commerce" element={<Ecommerce img={ecomm} />} />
+          <Route path="Marketing" element={<Marketing img={markg} />} />
+        </Route>
+        <Route path="/*" element={<Home />} />
+      </Routes>
+
       <Footer />
     </div>
   );
