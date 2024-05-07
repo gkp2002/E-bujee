@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from "react";
-
+import {Link} from "react-router-dom"
 function HiringProcess() {
   return (
-    <div>
+    <div name="hiring">
       <section className="bg-gray-900 text-white bg-opacity-70 py-16 lg:px-28 px-2">
         <div className="" >
           <h1 className="text-4xl py-4">Don't See a Position That Matches Your Skills?</h1>
@@ -14,7 +14,7 @@ function HiringProcess() {
           We're always interested in hearing from talented individuals, even
           if there are no current openings that match your skills and
           experience. Feel free to send us your resume and a brief overview of
-          what you can bring to the team to hr@thetechtitans.com.
+          what you can bring to the team to <Link to="mailto:info@thetechtitans.com" > hr@thetechtitan.com.</Link>
           </li>
           </ul>
           </p>

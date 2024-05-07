@@ -20,11 +20,14 @@ import brand from "./assets/design1.png";
 import ecomm from "./assets/ecomm.png";
 import design from "./assets/design2.png";
 import CareersPage from "./Components/Careers/CareersPage";
+import Whatsapp from "./Components/Whatsapp";
+import what from "./assets/whats.png"
 
 function App() {
   return (
     <div className=" w-full">
       <div className="md:flex hidden"></div>
+      <Whatsapp img={what}/>
       <Navbar />
       <ParticlesComponent id="particle" />
       <Routes >

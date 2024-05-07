@@ -30,7 +30,8 @@ function FormFile() {
        });
        if(response.status === 200){
         alert("Form Submitted Sucessfull")
-       }else{
+        window.location.reload();
+         }else{
         alert("Error submitting form:", response.statusText)
        }
         }

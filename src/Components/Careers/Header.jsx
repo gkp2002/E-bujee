@@ -2,8 +2,9 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-irregular-whitespace */
 /* eslint-disable react/no-unescaped-entities */
+import {Link} from "react-scroll" 
 import React from "react";
-import { NavLink, Link,useNavigate,Route, Routes } from "react-router-dom";
+import { NavLink,useNavigate,Route, Routes } from "react-router-dom";
 import "../Css/Home.css"
 function Header(props) {
   return (
@@ -19,7 +20,12 @@ function Header(props) {
            making a difference and driving innovation.
           </h5>
           <div className="py-4">
-          <Link>
+          <Link to="hiring"
+           smooth={true}
+           duration={500}
+           offset={-1280}
+           activeClass="active"
+          >
           <button className="text-[1.3vmax] font-bold px-8 py-3 rounded-3xl bg-orange-900 hover:bg-orange-600 " >
           See All Opening
           </button>
