@@ -20,7 +20,7 @@ function FormFile() {
   
     const handleSubmit= async (event)=>{
         event.preventDefault();
-       const response = await fetch('http://localhost:3000/Create',{
+       const response = await fetch('https://techtitannodejs.onrender.com/Create',{
          method:"POST",
          headers:{
           'Content-Type': 'application/json',
@@ -73,7 +73,7 @@ function FormFile() {
       <textarea name="Address" id="" cols="25" rows="8" placeholder="Tell us about your Project *" required
       value={data.Address}
       onChange={handleForm}
-      className="w-[70vw] h-auto max-h-[40rem]  md:py-6 min-h-48  border border-black text-white bg-gray-900  px-5 rounded-md mb-3  md:text-[1vmax] text-sm font-medium  block transition-all pb-3 "     
+      className="w-[70vw] h-auto max-h-[40rem]  md:py-6 min-h-48  border border-black text-white bg-gray-900  px-5 rounded-md mb-3  lg:text-[1.2vmax] text-xl text-sm font-medium  block transition-all pb-3 "     
       ></textarea>
   
       </div>
